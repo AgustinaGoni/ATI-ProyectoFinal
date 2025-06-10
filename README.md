@@ -109,7 +109,7 @@ Este proyecto fue realizado como entrega final para la obtención del título de
 Podés ver el video tutorial del sistema en el siguiente enlace:  
 🎬 [Ver video del manual de usuario](https://docs.google.com/presentation/d/1d81Rsx3VExgGTTZ_yh5kWn6dGLh0UwlqWvMbnjP905c/edit?slide=id.p#slide=id.p)
 
-También podés agregar capturas como esta (guardalas en la carpeta raíz):
+
 
 ### Vista principal de la tienda
 
