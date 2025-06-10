@@ -111,11 +111,27 @@ Podés ver el video tutorial del sistema en el siguiente enlace:
 
 También podés agregar capturas como esta (guardalas en la carpeta raíz):
 
-```markdown
-[![Pantalla principal de la tienda](./captura1.png)](https://drive.google.com/tu_link_aca)
-```
+### Vista principal de la tienda
 
----
+Pantalla de inicio:
+
+![Inicio tienda](./capturas/captura1.png)
+
+Página de producto:
+
+![Producto tienda](./capturas/captura2.png)
+
+Información clientes:
+
+![Información clientes](./capturas/captura3.png)
+
+Carrito:
+
+![Carrito](./capturas/captura4.png)
+ 
+Pantalla de inicio admin:
+
+![Inicio admin](./capturas/captura5.png)
 
 ## 👩‍💻 Autores
 
