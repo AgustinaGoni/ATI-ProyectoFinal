@@ -1,0 +1,86 @@
+.slick-prev:before, .slick-next:before {
+  color: black !important;
+}
+
+.slick-prev:before {
+  content: "" !important;
+  display: inline-block !important;
+  width: 24px !important;
+  height: 24px !important;
+  background-image: url('../public/img/chevron-left.svg')!important;
+  background-repeat:  no-repeat!important;
+  background-position: center center!important;
+  background-size: contain !important;
+}
+
+.slick-next:before {
+  content: "" !important;
+  display: inline-block !important;
+  width: 24px !important;
+  height: 24px !important;
+  background-image: url('../public/img/chevron-right.svg')!important;
+  background-repeat:  no-repeat!important;
+  background-position: center center!important;
+  background-size: contain !important;
+}
+
+/* Oculta los íconos de navegación en pantallas móviles */
+@media (max-width: 1194px) {
+  .slick-prev{
+    left: -18px!important;
+  }  
+  .slick-next {
+    right: -16px!important;
+  }  
+}
+
+.slick-slide {
+  display: flex !important;
+  align-items: center !important;
+  justify-content: center !important;
+  padding: 0 10px!important; /* Espaciado entre las tarjetas */
+}
+
+.slick-list {
+  margin: 0 auto;
+}
+
+.card-text {
+  font-size: clamp(1rem, 1vw, 1.5rem); /* Tamaño de texto fluido */
+  overflow: hidden;
+  text-overflow: ellipsis;
+  margin: 0; /* Asegúrate de que no haya márgenes adicionales que afecten la alineación */
+  padding: 0.5rem; /* Ajusta el espaciado interno si es necesario */
+}
+.slider-wrapper {
+  position: relative;
+  width: 100%;
+}
+
+.slider-container {
+  position: relative !important;
+}
+
+.slick-track {
+
+  min-height: 100px !important;
+
+}
+
+.slick-slide {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  padding: 0 8px;
+  margin: 8px 0!important;
+}
+
+.button-slide {
+  display: flex !important;
+  align-items: end !important;
+  justify-content: center !important;
+  min-height: 150px !important; /* Ajusta según el diseño de tu slider */
+}
+
+
+

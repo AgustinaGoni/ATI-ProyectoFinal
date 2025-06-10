@@ -1,0 +1,39 @@
+{
+  "name": "all-to-import-sas-admin",
+  "private": true,
+  "version": "0.0.0",
+  "type": "module",
+  "proxy": "http://localhost:7079",
+  "scripts": {
+    "dev": "vite",
+    "build": "vite build",
+    "lint": "eslint . --ext js,jsx --report-unused-disable-directives --max-warnings 0",
+    "preview": "vite preview"
+  },
+  "dependencies": {
+    "@chakra-ui/react": "^2.8.2",
+    "@emotion/react": "^11.13.0",
+    "@emotion/styled": "^11.13.0",
+    "@fontsource-variable/montserrat": "^5.0.19",
+    "@fontsource/lato": "^5.0.21",
+    "@tabler/icons-react": "^3.11.0",
+    "framer-motion": "^11.3.17",
+    "jwt-decode": "^4.0.0",
+    "react": "^18.3.1",
+    "react-date-range": "^2.0.1",
+    "react-dom": "^18.3.1",
+    "react-google-recaptcha": "^3.1.0",
+    "react-router-dom": "^6.25.1",
+    "xlsx": "^0.18.5"
+  },
+  "devDependencies": {
+    "@types/react": "^18.3.3",
+    "@types/react-dom": "^18.3.0",
+    "@vitejs/plugin-react-swc": "^3.5.0",
+    "eslint": "^8.57.0",
+    "eslint-plugin-react": "^7.34.3",
+    "eslint-plugin-react-hooks": "^4.6.2",
+    "eslint-plugin-react-refresh": "^0.4.7",
+    "vite": "^5.3.4"
+  }
+}
